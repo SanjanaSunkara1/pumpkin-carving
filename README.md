@@ -15,5 +15,7 @@ This **Pumpkin Carving Graphic** is a fun, holiday themed visual that I have mad
 
 ### This Current Implementation Includes:
 -A twilight-colored background.
+
 -A string displaying "SANJANA's Carved Pumpkin!".
+
 -Methods to draw the ground and the pumpkin.
