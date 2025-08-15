@@ -1,21 +1,36 @@
-# 🎃 Thanksgiving Pumpkin Carving 🎃
+markdown
+# Graphics Driver
 
-#### 📋 Description:
+This is a simple Java Swing application that demonstrates basic graphics drawing.
 
-This **Pumpkin Carving Graphic** is a fun, holiday themed visual that I have made using extensions in java such as JFrame, Graphics, and Color.
+## Description
 
----
+This project utilizes the Java Swing library to create a window (`JFrame`) and display a custom graphical component (`Pumpkin`) on it. The `Pumpkin` class, which extends `Canvas`, is responsible for drawing a simple shape, though the provided code snippet only draws a string with "***". The background of the window is set to a twilight color (RGB: 23, 29, 32).
 
-### ✨ File Desription:
-**GraphicsDriver** -  This class extends JFrame and serves as the main window for the application. It sets up the frame, its size, and the default closing operation. It then adds the Pumpkin object to the frame's content pane.
+## Requirements
 
-**Pumpkin** - This class extends Canvas and is responsible for drawing the pumpkin and its carved features. The paint method, which is automatically invoked when the component needs to be drawn, is overridden to draw the ground, the pumpkin itself, and the carved elements.
+*   Java Development Kit (JDK) installed on your system.
 
----
+## How to Compile and Run
 
-### This Current Implementation Includes:
--A twilight-colored background.
+1.  **Save the code:** Save the provided code as two separate files: `GraphicsDriver.java` and `Pumpkin.java`.
+2.  **Compile:** Open a terminal or command prompt, navigate to the directory where you saved the files, and compile the Java code using the following command:
+    ```bash
+    javac GraphicsDriver.java Pumpkin.java
+    ```
+3.  **Run:** Execute the compiled program using the following command:
+    ```bash
+    java GraphicsDriver
+    ```
+    This will launch a window with the title "Graphics Driver" displaying the output of the `Pumpkin` class.
 
--A string displaying "SANJANA's Carved Pumpkin!".
+## Project Structure
 
--Methods to draw the ground and the pumpkin.
+*   `GraphicsDriver.java`: The main class that sets up the `JFrame` and adds the `Pumpkin` canvas.
+*   `Pumpkin.java`: The class responsible for the custom graphics drawing. It extends `Canvas` and overrides the `paint` method.
+
+## Future Enhancements
+
+*   Implement the drawing of an actual pumpkin within the `Pumpkin` class.
+*   Add more interactive elements to the GUI.
+*   Explore different Swing components and layouts to enhance the application's complexity.
